@@ -25,7 +25,7 @@ public class Day11 {
             }
         }
         
-        int count = 0, d;
+        int count = INTEGER.MIN_VALUE, d;
         for(int i=0; i<4; i++) {
             for(int j=0; j<4; j++) {
                 d = arr[i][j] + arr[i][j+1] + arr [i][j+2]
