@@ -15,7 +15,7 @@ abstract class Book {
 class MyBook extends Book {
     private int Price; // Declare the price instance variable
     
-    MyBook(String title, String author, int Price){
+    MyBook(String title, String author, int Price){  // Day13
         super(title,author);
         this.Price = Price;
     }
