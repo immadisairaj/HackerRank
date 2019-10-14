@@ -35,7 +35,7 @@ public class Day20 {
         }
         
         System.out.println("Array is sorted in "+count+" swaps.");
-        System.out.println("First Element: "+a[0]);
-        System.out.println("Last Element: "+a[n-1]);
+        System.out.println("First Element is "+a[0]);
+        System.out.println("Last Element is "+a[n-1]);
     }
 }
